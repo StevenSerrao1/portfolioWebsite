@@ -55,7 +55,10 @@ ROOT_URLCONF = 'djangoProjectOne.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],
+        'DIRS': [
+            BASE_DIR / 'templates',
+            BASE_DIR / 'frontend/build',
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -116,10 +119,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'templates/static-pages/'
+STATIC_URL = 'frontend/build/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "templates/static-pages"),
+    os.path.join(BASE_DIR, "frontend/build"),
+    os.path.join(BASE_DIR, "frontend/build/static"),
 ]
 
 # Default primary key field type
