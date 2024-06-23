@@ -1,11 +1,12 @@
 import React from 'react';
+import './Footer.css';
 
 const Footer = () => (
-    <footer>
+    <footer class="scroll-margin">
         <div class="container">
-            <p>&copy; 2024 Steven Serrao. All rights reserved.</p>
+            <p id="footer-text">&copy; 2024 Steven Serrao. All rights reserved.</p>
         </div>
-    </footer>
+   </footer>     
 );
 
 export default Footer;

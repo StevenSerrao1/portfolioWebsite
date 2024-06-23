@@ -1,0 +1,116 @@
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 5px;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+
+.blog-card {
+    border-radius: 10px;
+    padding: 25px;
+    padding-bottom: 95px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    max-width: 430px;
+    max-height: 400px; /* Set a maximum height */
+    overflow-y: auto; /* Enable vertical scrolling if content exceeds max height */
+    min-height: 260px;
+    text-align: left;
+    position: relative;
+    background-color: #ffe6b0;
+    border-radius: 8px;
+    border: 1px solid #151515; /* Add a 1px solid border */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-card:hover {
+transform: translateY(-5px);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+background-color: hsl(39, 100%, 78%);
+transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+border: 1px solid black;
+}
+
+.blog-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffa500;
+    text-align: center;
+    font-size: 25px;
+}
+
+.blog-card:hover h3 {
+    border-bottom: 2px solid #191970;
+}
+
+.blog-card p {
+    padding-top: 5px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.blog-card a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.blog-card a:hover {
+    text-decoration: underline;
+}
+
+#blog-home {
+    margin-top: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.nav-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.nav-button.left {
+    left: -40px;
+}
+
+.nav-button.right {
+    right: -40px;
+}
+
+.nav-button:hover {
+    background-color: #0056b3;
+}
+
+/*  DARK MODE CSS  */
+
+[data-theme='dark'] .blog-card:hover {
+    background-color: #2f2f2f;
+      text-shadow:
+        0 0 10px #ffa500;
+        box-shadow: 0 0 10px #ffa500;
+}
+
+[data-theme='dark'] .blog-card:hover h3 {
+    border-bottom: 2px solid #ffa500;
+}
+
+[data-theme='dark'] .blog-card {
+    background-color: #2f2f2f;
+      text-shadow:
+        0 0 10px #ffa500;
+        border-color: #ffa500;
+}

@@ -1,0 +1,72 @@
+#projects {
+    padding-top: 40px !important;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.project-list div p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+
+.project-item {
+    padding: 20px;
+    background-color: #ffe6b0;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: 1px solid #191919; /* Add a 1px solid border */
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 340px;
+}
+
+.project-item h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    text-decoration: underline #ffa500;
+}
+
+.project-item p {
+    font-size: 16px;
+}
+
+.project-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: hsl(39, 100%, 72%);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.project-item:hover h3 {
+    text-decoration: underline #191970;
+}
+
+/*  DARK MODE CSS  */
+
+[data-theme='dark'] .project-item:hover h3 {
+    text-decoration: underline #ffa500;
+}
+
+[data-theme='dark'] .project-item:hover {
+    background-color: #2f2f2f;
+      text-shadow:
+        0 0 10px #ffa500;
+    box-shadow: 0 0 10px #ffa500;
+}
+
+[data-theme='dark'] .project-item {
+    color: white;
+      text-shadow:
+        0 0 7px #ffa500;
+    background-color: #333;
+    border-color: #ffa500;
+}
