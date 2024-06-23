@@ -1,0 +1,133 @@
+/* Extra section styles */
+
+.extra-section {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #ffa500;
+}
+
+#extras {
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.extra-section h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: black;
+    border-bottom: 2px solid #ffa500;
+    text-align: center;
+}
+
+.extra-section h3:hover {
+    text-shadow:
+        -0.4px -0.4px 0 #ffa500,  
+         0.4px -0.4px 0 #ffa500,
+        -0.4px  0.4px 0 #ffa500,
+         0.4px  0.4px 0 #ffa500;
+    
+    cursor: pointer;
+}
+
+.quiz-item, .game-item, .video-item, .download-item {
+    background: #ffe6b0; /* Light mode background color */
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.quiz-item h4, .game-item h4, .video-item h4, .download-item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffa500;
+    text-align: center;
+}
+
+.quiz-item:hover h4, .game-item:hover h4, .video-item:hover h4, .download-item:hover h4 {
+    border-bottom: 2px solid #191970;
+}
+
+.quiz-item p, .game-item p, .video-item p, .download-item p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.quiz-item button, .game-item button, .video-item a, .download-item a {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    color: #000000;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
+
+.quiz-item button:hover, .game-item button:hover, .video-item a:hover, .download-item a:hover {
+    background-color: #191970;
+}
+
+.quiz-item:hover, .game-item:hover, .video-item:hover, .download-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: hsl(39, 100%, 72%);
+}
+
+/*  DARK MODE CSS  */
+
+[data-theme='dark'] .quiz-item, 
+[data-theme='dark'] .game-item, 
+[data-theme='dark'] .video-item, 
+[data-theme='dark'] .download-item {
+    background-color: #2f2f2f;
+    text-shadow: 0 0 10px #ffa500;
+    border-color: #ffa500;
+}
+
+[data-theme='dark'] .quiz-item:hover, 
+[data-theme='dark'] .game-item:hover, 
+[data-theme='dark'] .video-item:hover, 
+[data-theme='dark'] .download-item:hover {
+    background-color: #2f2f2f;
+    box-shadow: 0 0 10px #ffa500;
+}
+
+[data-theme='dark'] .quiz-item button:hover, 
+[data-theme='dark'] .game-item button:hover, 
+[data-theme='dark'] .video-item a:hover, 
+[data-theme='dark'] .download-item a:hover {
+    background-color: black;
+    color: white;
+}
+
+[data-theme='dark'] .quiz-item:hover h4, 
+[data-theme='dark'] .game-item:hover h4, 
+[data-theme='dark'] .video-item:hover h4, 
+[data-theme='dark'] .download-item:hover h4 {
+    border-bottom: 2px solid #ffa500;
+}
+
+[data-theme='dark'] .extra-section h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(227, 227, 227);
+    border-bottom: 2px solid #ffa500;
+    text-align: center;
+}
+
+[data-theme='dark'] .extra-section h3:hover {
+    text-shadow:
+        -0.2px -0.2px 0 #ffa500,  
+         0.2px -0.2px 0 #ffa500,
+        -0.2px  0.2px 0 #ffa500,
+         0.2px  0.2px 0 #ffa500;
+    
+    cursor: pointer;
+}
