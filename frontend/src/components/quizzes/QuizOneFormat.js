@@ -70,7 +70,137 @@ const questions = [
       { answerText: 'Golden Eagle', isCorrect: true },
     ],
   },
+
+  {
+    questionText: 'Who wrote the play \'Hamlet\'?',
+    answerOptions: [
+      { answerText: 'William Shakespeare', isCorrect: true },
+      { answerText: 'Charles Dickens', isCorrect: false },
+      { answerText: 'George Orwell', isCorrect: false },
+      { answerText: 'Jane Austen', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'Which country hosted the 2016 Summer Olympics?',
+    answerOptions: [
+      { answerText: 'China', isCorrect: false },
+      { answerText: 'France', isCorrect: false },
+      { answerText: 'Brazil', isCorrect: true },
+      { answerText: 'Russia', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'What is the smallest country in the world by land area?',
+    answerOptions: [
+      { answerText: 'Vatican City', isCorrect: true },
+      { answerText: 'Monaco', isCorrect: false },
+      { answerText: 'San Marino', isCorrect: false },
+      { answerText: 'Andorra', isCorrect: false },
+    ],
+  },
   
+  {
+    questionText: 'Who painted \'The Persistence of Memory\', featuring melting clocks?',
+    answerOptions: [
+      { answerText: 'Michelangelo', isCorrect: false },
+      { answerText: 'Vincent van Gogh', isCorrect: false },
+      { answerText: 'Claude Monet', isCorrect: false },
+      { answerText: 'Salvador Dali', isCorrect: true },
+    ],
+  },
+
+  {
+    questionText: 'Who was the first female Prime Minister of the United Kingdom?',
+    answerOptions: [
+      { answerText: 'Indira Ghandi', isCorrect: false },
+      { answerText: 'Margaret Thatcher', isCorrect: true },
+      { answerText: 'Teresa May', isCorrect: false },
+      { answerText: 'Angela Merkel', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'In Greek Mythology, who was the god of the sea?',
+    answerOptions: [
+      { answerText: 'Zeus', isCorrect: false },
+      { answerText: 'Poseidon', isCorrect: true },
+      { answerText: 'Hades', isCorrect: false },
+      { answerText: 'Apollo', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'Which social media platform was launched first?',
+    answerOptions: [
+      { answerText: 'Facebook', isCorrect: false },
+      { answerText: 'Twitter', isCorrect: false },
+      { answerText: 'Instagram', isCorrect: false },
+      { answerText: 'LinkedIn', isCorrect: true },
+    ],
+  },
+
+  {
+    questionText: 'Which Marvel movie first introduced the character Black Panther?',
+    answerOptions: [
+      { answerText: 'Captain America: Civil War', isCorrect: true },
+      { answerText: 'Avengers: Infinity War', isCorrect: false },
+      { answerText: 'Black Panther', isCorrect: false },
+      { answerText: 'Guardians Of The Galaxy Vol.2', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'Which country became the first to legalize same-sex marriage in 2001?',
+    answerOptions: [
+      { answerText: 'United States of America', isCorrect: false },
+      { answerText: 'Iran', isCorrect: false },
+      { answerText: 'The Netherlands', isCorrect: true },
+      { answerText: 'Australia', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'What was the first video game ever created?',
+    answerOptions: [
+      { answerText: 'Tetris', isCorrect: false },
+      { answerText: 'Pong', isCorrect: true },
+      { answerText: 'Pac-Man', isCorrect: false },
+      { answerText: 'Guitar Hero', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'Which company was originally called \'Blue Ribbon Sports\'?',
+    answerOptions: [
+      { answerText: 'Puma', isCorrect: false },
+      { answerText: 'Adidas', isCorrect: false },
+      { answerText: 'Nike', isCorrect: true },
+      { answerText: 'Reebok', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'What major event happened in the United States on July 20, 1969?',
+    answerOptions: [
+      { answerText: 'Moon Landing by Apollo 11', isCorrect: true },
+      { answerText: 'Woodstock Music Festival', isCorrect: false },
+      { answerText: 'The Assassination of JFK', isCorrect: false },
+      { answerText: 'Launch of The Internet', isCorrect: false },
+    ],
+  },
+
+  {
+    questionText: 'Which British band released the album \'Dark Side of the Moon\' in 1973?',
+    answerOptions: [
+      { answerText: 'One Direction', isCorrect: false },
+      { answerText: 'The Beatles', isCorrect: false },
+      { answerText: 'The Rolling Stones', isCorrect: false },
+      { answerText: 'Pink Floyd', isCorrect: true },
+    ],
+  }
+
 ];
 
 const QuizOneFormat = () => {

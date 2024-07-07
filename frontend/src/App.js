@@ -8,6 +8,7 @@ import Insights from './components/Insights';
 import Extras from './components/Extras';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Projects />
         <Insights />
         <Extras />
-        <Contact />
+        <Skills />
+        <Contact />        
       </main>
       <Footer />
     </div>

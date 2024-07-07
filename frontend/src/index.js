@@ -5,6 +5,7 @@ import './styles/index.css';
 import App from './App';
 import QuizOne from './components/quizzes/QuizOne';
 import QuizTwo from './components/quizzes/QuizTwo';
+import GreatestFilmsBlog from './components/blogs/GreatestFilmsBlog.js';
 
 const Root = () => (
   <Router>
@@ -12,6 +13,7 @@ const Root = () => (
       <Route exact path="/" component={App} />
       <Route path="/quiz-one" component={QuizOne} /> // Define the route for the new page
       <Route path="/quiz-two" component={QuizTwo} /> // Define the route for the new page
+      <Route path="/blog/25-greatest-films" component={GreatestFilmsBlog} /> // Define the route for the new page
     </Switch>
   </Router>
 );

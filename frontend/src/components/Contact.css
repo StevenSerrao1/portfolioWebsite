@@ -16,3 +16,14 @@
     color: #ffa500;
     text-decoration: underline;
 }
+
+/*  DARK MODE CSS  */
+
+[data-theme='dark'] #contact a {
+    color: #ffa500;
+}
+
+[data-theme='dark'] #contact a:hover {
+    color: rgb(68, 136, 255);
+    text-decoration: underline;
+}

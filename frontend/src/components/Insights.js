@@ -6,11 +6,13 @@ const Insights = () => {
     const blogPosts = [
         {
             title: 'More about my technical journey',
-            content: 'Here, I discuss my main motivation for getting into software development, my self-taught development journey, the technologies that I use, and finally, my professional goals moving forward...'
+            content: 'Here, I discuss my main motivation for getting into software development, my self-taught development journey, the technologies that I use, and finally, my professional goals moving forward...',
+            link: 'https://www.youtube.com',
         },
         {
             title: '25 Greatest Films of All Time',
-            content: 'In this (totally objective) list of cinema\'s most profound feats, I look at 25 indispensable silver-screen hits and what makes each of them so excellent.'
+            content: 'In this (totally objective) list of cinema\'s most profound feats, I look at 25 indispensable silver-screen hits and what makes each of them so excellent.',
+            link: './blog/25-greatest-films',
         }
     ];
 
@@ -31,7 +33,7 @@ const Insights = () => {
                     <div className="blog-card">
                         <h3>{blogPosts[currentIndex].title}</h3>
                         <p>{blogPosts[currentIndex].content}</p>
-                        <a href="https://www.youtube.com" target="_blank">Read More</a>
+                        <a href={blogPosts[currentIndex].link} target="_blank">Read More</a>
                     </div>
                     <button className="nav-button right" onClick={nextPost}>→</button>
                 </div>

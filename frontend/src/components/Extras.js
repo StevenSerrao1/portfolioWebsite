@@ -31,50 +31,6 @@ const Extras = () => {
     }, []);
 
     useEffect(() => {
-        const miniGamesHeading = document.getElementById("mini-games-heading");
-
-        const handleScroll = () => {
-            const miniGamesSection = document.getElementById("mini-games-section");
-            const offset = -105;
-            const sectionPosition = miniGamesSection.getBoundingClientRect().top + window.pageYOffset + offset;
-            
-            window.scrollTo({
-                top: sectionPosition,
-                behavior: 'smooth'
-            });
-        };
-
-        miniGamesHeading.addEventListener("click", handleScroll);
-
-        // Clean up event listener on component unmount
-        return () => {
-            miniGamesHeading.removeEventListener("click", handleScroll);
-        };
-    }, []);
-
-    useEffect(() => {
-        const miniVideosHeading = document.getElementById("mini-videos-heading");
-
-        const handleScroll = () => {
-            const miniVideosSection = document.getElementById("mini-videos-section");
-            const offset = -105; // Adjust this value as needed to change the final scroll position
-            const sectionPosition = miniVideosSection.getBoundingClientRect().top + window.pageYOffset + offset;
-            
-            window.scrollTo({
-                top: sectionPosition,
-                behavior: 'smooth'
-            });
-        };
-
-        miniVideosHeading.addEventListener("click", handleScroll);
-
-        // Clean up event listener on component unmount
-        return () => {
-            miniVideosHeading.removeEventListener("click", handleScroll);
-        };
-    }, []);
-
-    useEffect(() => {
         const miniDWHeading = document.getElementById("mini-dw-heading");
 
         const handleScroll = () => {
@@ -89,7 +45,6 @@ const Extras = () => {
         };
 
         miniDWHeading.addEventListener("click", handleScroll);
-
         // Clean up event listener on component unmount
         return () => {
             miniDWHeading.removeEventListener("click", handleScroll);
@@ -118,50 +73,18 @@ const Extras = () => {
                     </div>
                 </div>
 
-                {/* Games Section */}
-                <div className={`extra-section ${activeSection === 'games' ? 'active' : ''}`} id="mini-games-heading">
-                    <h3 onClick={() => toggleSection('games')} id="mini-games-section">Games</h3>
-                    <div className="game-items">
-                        <div className="game-item">
-                            <h4>Tetris</h4>
-                            <p>Play Tetris directly on the site.</p>
-                            <button>Play Now</button>
-                        </div>
-                        <div className="game-item">
-                            <h4>Game Title 2</h4>
-                            <p>Description of Game 2.</p>
-                            <button>Play Now</button>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Videos Section */}
-                <div className={`extra-section ${activeSection === 'videos' ? 'active' : ''}`} id="mini-videos-heading">
-                    <h3 onClick={() => toggleSection('videos')} id="mini-videos-section">Videos</h3>
-                    <div className="video-items">
-                        <div className="video-item">
-                            <h4>Video Title 1</h4>
-                            <p>Description of Video 1.</p>
-                            <a href="#">Watch Now</a>
-                        </div>
-                        <div className="video-item">
-                            <h4>Video Title 2</h4>
-                            <p>Description of Video 2.</p>
-                            <a href="#">Watch Now</a>
-                        </div>
-                    </div>
-                </div>
-
                 {/* Downloadables Section */}
                 <div className={`extra-section ${activeSection === 'downloadables' ? 'active' : ''}`} id="mini-dw-heading">
                     <h3 onClick={() => toggleSection('downloadables')} id="mini-dw-section">Downloadables</h3>
                     <div className="download-items">
                         <div className="download-item">
                             <h4>Code Example 1</h4>
+                            <p>Here is a section dedicated to some code samples from the site you are currently browsing. Take a look!</p>
                             <a href="#">Download</a>
                         </div>
                         <div className="download-item">
                             <h4>Resume</h4>
+                            <p>Browse through my resume and determine for yourself if I would be a good fit your company!</p>
                             <a href="#">Download</a>
                         </div>
                     </div>

@@ -6,7 +6,15 @@ const About = () => {
         <section>
             <div class="container">
                 <h2>Me, in a nutshell</h2>
-                <p id="about-me-body">Hey, I'm Steven, a 24-year-old tech enthusiast from South Africa, currently focused on mastering .NET development. My primary aim? Securing a challenging back-end or full-stack role in either Pretoria or Cape Town, where I can apply my skills and contribute to innovative projects.<br /><br />Beyond work, I find fulfillment in various hobbies and interests. I enjoy exploring diverse forms of entertainment, from thought-provoking films like Inception to immersive TV series like Breaking Bad. Musically, I appreciate a range of genres, including classic rock and indie favorites, without overlooking the timeless contributions of legends like The Beatles.<br /><br />In my downtime, I'm a basketball fan and draw inspiration from athletes like Kobe Bryant for their dedication and perseverance. Additionally, gaming has been a longstanding passion of mine, not just for leisure but also for the insights it provides into problem-solving and creativity, which I apply to my programming endeavors.<br /><br />Ultimately, my professional aspirations are at the forefront of my journey, driving me to continuously learn and grow in the tech industry.</p>
+                <p id="about-me-body">Hey! I'm Steven, a 24 year-old South-African software developer with a knack for .NET and Node.js. 
+                I'm on the hunt for a dynamic back-end or full-stack role in either Gauteng (Pretoria/JHB) or the Western Cape, where I can dive into groundbreaking projects that will help to put SA on the map! <br /><br />
+                Outside of work, I'm a problem-solver at heart. Complex challenges get my brain buzzing, and I love exploring new tech and building impactful software. 
+                Whether it's personal projects or just keeping myself updated, I'm constantly learning and pushing myself 
+                to be better. <br /><br />  When I need to unwind, I turn to thought-provoking entertainment. Films like Inception make me think, and shows like Breaking Bad 
+                keep me glued to the screen. Basketball is another passion (Kobe Bryant, anyone?). My music taste is all over the place, from classic rock like Led Zeppelin, to indie gems like RKS, 
+                with a healthy dose of timeless legends like The Beatles thrown in. Gaming has also been a big part of my life, teaching me valuable problem-solving 
+                skills and creativity that translate well to coding. <br /><br />  Ultimately, my tech aspirations fuel my drive to learn, innovate, and make a real 
+                difference. <br /> I want to leave my mark on the ever-evolving world of technology.</p>
             </div>
         </section>
     );

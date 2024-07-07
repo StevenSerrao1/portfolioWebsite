@@ -16,9 +16,7 @@ const Projects = () => (
                     </div>
                     <div className="project-item" id="webextras-project">
                         <h3>Machine Learning Project</h3>
-                        <p>Real-time Face Detection:
-
-Create a web-based demo using OpenCV.js for real-time face detection in webcam feeds. This project demonstrates computer vision techniques and can be deployed with minimal server resources.</p>
+                        <p>Real-time Face Detection: Create a web-based demo using OpenCV.js for real-time face detection in webcam feeds. This project demonstrates computer vision techniques and can be deployed with minimal server resources.</p>
                     </div>
                 </div>
         </div>

@@ -5,26 +5,6 @@
   --background-image: url("https://www.transparenttextures.com/patterns/brick-wall-dark.png");
 }
 
-/*  DARK MODE CSS  */
-
-[data-theme='dark'] {
-  --background-color: rgb(30, 30, 30);
-  --text-color: #ffffff;
-  --background-image: none; /* or any dark mode specific background image */
-}
-
-[data-theme='dark'] .container {
-  color: white;
-    text-shadow:
-      0 0 7px #ffa500;
-}
-
-[data-theme='dark'] h2 {
-  color: #fff;
-    text-shadow:
-      0 0 7px #ffa500;
-}
-
 /* Apply CSS variables */
 
 body {
@@ -47,7 +27,7 @@ body {
 /* Section styles */
 
 section {
-  margin-top: -135px; /* Adjust as needed */
+  margin-top: -137px; /* Adjust as needed */
   padding-top: 125px; /* Adjust to match header padding */
   background-color: var(--background-color);
   border-radius: 8px;
@@ -86,4 +66,24 @@ button {
 
 button:hover {
   background-color: #45a049;
+}
+
+/*  DARK MODE CSS  */
+
+[data-theme='dark'] {
+  --background-color: rgb(30, 30, 30);
+  --text-color: #ffffff;
+  --background-image: none; /* or any dark mode specific background image */
+}
+
+[data-theme='dark'] .container {
+  color: white;
+    text-shadow:
+      0 0 7px #ffa500;
+}
+
+[data-theme='dark'] h2 {
+  color: #fff;
+    text-shadow:
+      0 0 7px #ffa500;
 }
