@@ -81,7 +81,7 @@ button:hover {
 }
 
 [data-theme='dark'] button {
-  color: rgb(30, 30, 30);
+  color: rgb(240, 239, 239);
 }
 
 [data-theme='dark'] .container {
