@@ -1,0 +1,152 @@
+/* Blog Post Container */
+.blog-post-1 {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 1rem; /* Padding around the entire blog post */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+}
+
+/* Blog Post Title */
+.blog-post-1 h2 {
+    text-align: center; /* Center align the title */
+    margin-top: 0; /* Remove top margin for title */
+}
+
+#no-sticky-header header {
+    position: static; 
+}
+
+/* Post Date */
+.post-date-1 {
+    color: #999; /* Light gray text color */
+    font-size: 0.9rem; /* Smaller font size */
+    text-align: center; /* Center align post date */
+    margin-bottom: 1rem; /* Bottom margin */
+}
+
+.boldify {
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+/* Film Post Content */
+.post-content-1 {
+    margin-bottom: 1rem; /* Margin below film post content */
+    width: 100%; /* Full width */
+}
+
+/* Film Navigation Buttons */
+.film-navigation-1 {
+    display: flex; /* Flexbox for button alignment */
+    justify-content: center; /* Center align buttons */
+    margin-top: 1rem; /* Top margin */
+}
+
+.film-description-1 {
+    border-spacing: 10%;
+    
+}
+
+.film-title-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-button-1 {
+    padding: 0.5rem 1rem; /* Padding around button text */
+    font-size: 1rem; /* Font size */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+
+    /* Transition for smooth hover effect */
+    transition: background-color 0.3s ease;
+}
+
+.nav-button-1:hover {
+    background-color: #0056b3; /* Darker background on hover */
+}
+
+.nav-button-1.left {
+    margin-right: 0.5rem; /* Space between buttons */
+}
+
+.nav-button-1.right {
+    margin-left: 0.5rem; /* Space between buttons */
+}
+
+/* Film Image */
+.film-image-1 {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 1rem; /* Top margin */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/*  DARK MODE CSS  */
+
+/* Dark Mode Blog Post Container */
+[data-theme='dark'] .blog-post-1 {
+    background-color: rgb(30, 30, 30); /* Dark background color */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+}
+
+/* Dark Mode Blog Post Title */
+[data-theme='dark'] .blog-post-1 h2 {
+    color: #fff; /* White text color */
+}
+
+/* Dark Mode Post Date */
+[data-theme='dark'] .post-date-1 {
+    color: #ccc; /* Light gray text color */
+}
+
+/* Dark Mode Film Navigation Buttons */
+[data-theme='dark'] .film-navigation-1 {
+    display: flex; /* Flexbox for button alignment */
+    justify-content: center; /* Center align buttons */
+    margin-top: 1rem; /* Top margin */
+}
+
+[data-theme='dark'] .nav-button-1 {
+    padding: 0.5rem 1rem; /* Padding around button text */
+    font-size: 1rem; /* Font size */
+    background-color: #1e88e5; /* Darker blue background color */
+    color: #fff; /* Text color */
+    border: none; /* Remove default button border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+
+    /* Transition for smooth hover effect */
+    transition: background-color 0.3s ease;
+}
+
+[data-theme='dark'] .nav-button-1:hover {
+    background-color: #1565c0; /* Darker hover background color */
+}
+
+[data-theme='dark'] .nav-button-1.left {
+    margin-right: 0.5rem; /* Space between buttons */
+}
+
+[data-theme='dark'] .nav-button-1.right {
+    margin-left: 0.5rem; /* Space between buttons */
+}
+
+/* Dark Mode Film Image */
+[data-theme='dark'] .film-image-1 {
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 1rem; /* Top margin */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow for depth */
+    border: solid 3px #ffa500; /* Orange border */
+}

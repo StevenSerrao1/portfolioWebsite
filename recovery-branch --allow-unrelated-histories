@@ -1,0 +1,116 @@
+[33mcommit f960765f88bcf6ab7d2753c42db2780df054a891[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Merge: ccc117c 5c62f6c
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 15:42:30 2024 +0200
+
+    Merge branch 'recovery-branch'
+
+[33mcommit ccc117c436d7cfce62a764efc802e656550111b6[m[33m ([m[1;31morigin/main[m[33m)[m
+Merge: 22dd686 5b27aea
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 15:23:51 2024 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 22dd6869ba9d764a24f18a8ea1caf12d35147317[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 15:08:01 2024 +0200
+
+    added frontend functionality
+
+[33mcommit 5c62f6c771850b1385c081b69e77f86c792059e2[m[33m ([m[1;32mrecovery-branch[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 15:02:12 2024 +0200
+
+    refactored frontend due to errors with server implementation
+
+[33mcommit ea2e65680090dc6d7f766cdd5790c5b174f04b16[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 08:08:39 2024 +0200
+
+    more additions
+
+[33mcommit a0859611395eb70dbed4f3594044f50bb6923e17[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Wed Jul 10 07:54:34 2024 +0200
+
+    initial setup
+
+[33mcommit 20ac3890e5c6537bfdef6a1c0ed0747e07646255[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon Jul 8 16:49:20 2024 +0200
+
+    Added basic quiz functionality to backend server. Basic quiz formatting.
+
+[33mcommit 682a007fe459233afd81237b2c5328e07e8291a0[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon Jul 8 07:29:59 2024 +0200
+
+    added extras, skills and contact sections. Updated main html file.
+
+[33mcommit 1276349fff1745bba08d2f36073a46a821db6fa4[m
+Merge: b2427a7 89c7a2c
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Sun Jul 7 17:09:58 2024 +0200
+
+    updated gitignore
+
+[33mcommit b2427a77692a4e1a0975a1352f689a619f6e8b08[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Sun Jul 7 17:07:46 2024 +0200
+
+    Refactored entire app up until the current state. I was only running on a react front end but I have implemented a proper node/express backend server
+
+[33mcommit 89c7a2c6a1a5784736fe92a2d92a0abf9a8330d9[m
+Author: Steven Serrao <139428908+StevenSerrao1@users.noreply.github.com>
+Date:   Sun Jul 7 16:55:27 2024 +0200
+
+    Create .gitignore
+
+[33mcommit 5b27aeaee42884e77823c06bd2f8df8c832ccfe6[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 8db0586 9de223c
+Author: Steven Serrao <139428908+StevenSerrao1@users.noreply.github.com>
+Date:   Sun Jun 23 16:21:25 2024 +0200
+
+    Merge pull request #2 from StevenSerrao1/main
+    
+    overhauled the application entirely. django backend was swapped for n…
+
+[33mcommit 9de223cf0a7914459cd352ac9817e7d57cdc4d3d[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Sun Jun 23 16:21:09 2024 +0200
+
+    overhauled the application entirely. django backend was swapped for node.js backend for simplicity and efficiency. dark mode was added. UI improvements were made. Extras section updated.
+
+[33mcommit 8db0586061a1c12d1cd7577672951a354e6ea4f6[m
+Merge: c23a1b7 cf8b957
+Author: Steven Serrao <139428908+StevenSerrao1@users.noreply.github.com>
+Date:   Mon Jun 17 15:51:10 2024 +0200
+
+    Merge pull request #1 from StevenSerrao1/main
+    
+    Main
+
+[33mcommit cf8b95796c77c4452ca9f77a080e398aad578c7e[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon Jun 17 14:59:27 2024 +0200
+
+    deleted redundant assets.
+
+[33mcommit e1758e3f4ab186609ae567598f208ee04b1c6fa2[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon Jun 17 14:58:37 2024 +0200
+
+    Additional tabs added. Extras and Blog page stylings created. Link routing fixed. UI touchups made.
+
+[33mcommit c23a1b7c169f4a290dd4df8a127bf6c4b984d418[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon May 27 21:12:17 2024 +0200
+
+    added an additional view as well as initial routing capability
+
+[33mcommit ae0150818a0446edcc28411a338511de417d7bfb[m
+Author: Steven Serrao <stevenserraowork@gmail.com>
+Date:   Mon May 27 08:42:51 2024 +0200
+
+    created initial version of professional portfolio website
