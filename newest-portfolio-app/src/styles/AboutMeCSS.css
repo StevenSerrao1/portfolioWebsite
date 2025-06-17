@@ -1,0 +1,18 @@
+﻿.yellow-underline {
+     text-decoration: underline;
+     text-decoration-color: #ffc107 !important;
+ }
+
+.yellow-underline:hover {
+    text-decoration: underline;
+    text-decoration-color: black !important;
+    color: #ffc107 !important;
+}
+
+.lato-p {
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-custom-1 {
+    background: snow !important;
+}

@@ -1,3 +1,16 @@
+/* In your App.css or a global stylesheet */
+body {
+    margin: 0; /* Remove default body margins */
+    padding: 0; /* Remove default body padding */
+}
+
+.container {
+    /* Keep your existing styles */
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%; /* Ensure the container tries to take full width */
+}
+
 .App {
   text-align: center;
 }

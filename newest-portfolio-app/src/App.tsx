@@ -1,11 +1,13 @@
-import React from 'react';
-import './App.css';
+import "./App.css";
+import HeaderComponent from "./Components/Header/Header";
+
+import LayoutDynamic from "./Components/LayoutDynamic/LayoutDynamic"
 
 function App() {
   return (
-      <div className="container">
-        <h1 className="mt-5">Hello, Bootstrap!</h1>
-        <button className="btn btn-primary">Click Me</button>
+      <div className="container-fluid">
+          <HeaderComponent />
+          <LayoutDynamic />
       </div>
   );
 }
